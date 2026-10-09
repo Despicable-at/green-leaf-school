@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Green Leaf School"
+description = "A responsive, static information and admissions website for Green Leaf School in Atimatim, Ghana, with school information, program listings, an admissions application flow, gallery placeholders, and staff directory."
+version = "1.0.0"
+id = "artifacts/green-leaf-school"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22534
+
+[services.development]
+run = "pnpm --filter @workspace/green-leaf-school run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/green-leaf-school", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/green-leaf-school/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22534"
+BASE_PATH = "/"

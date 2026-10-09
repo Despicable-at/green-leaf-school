@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admissions | Green Leaf School, Atimatim</title>
+  <meta name="description" content="Admission is in progress at Green Leaf School, Atimatim. Send a child and guardian enquiry for Creche, Nursery, Primary or JHS. No school fees.">
+  <meta name="theme-color" content="#0B3D2E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="canonical" href="https://www.example.com/admissions">
+  <meta property="og:type" content="website"><meta property="og:title" content="Admissions in progress | Green Leaf School"><meta property="og:description" content="Tuition-free learning from Creche through JHS at Green Leaf School."><meta property="og:url" content="https://www.example.com/admissions"><meta property="og:image" content="https://www.example.com/assets/logo.svg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/styles.css"><script type="module" src="js/main.js"></script>
+</head>
+<body data-page="admissions.html"><a class="skip-link" href="#main">Skip to main content</a><div data-admission-strip></div><header id="site-header"></header>
+<main id="main">
+  <section class="page-hero"><div class="container"><span class="hero-badge">Admission in progress · No school fees</span><p class="eyebrow">Admissions · Atimatim</p><h1>Your next step starts here.</h1><p class="lede">Admission is in progress at Green Leaf School. Share an enquiry and our school can respond.</p></div></section>
+  <section class="section compact"><div class="container"><div class="admission-banner"><div><h2>Admission in progress · Tuition free</h2><p>No school fees. Scholarships are available. Enquire about Creche, Nursery, Primary or JHS.</p></div><a class="button" href="tel:+233540863834">Call the school ↗</a></div></div></section>
+  <section class="section compact"><div class="container">
+    <div class="section-heading center"><p class="eyebrow">Admission enquiry</p><h2>Tell us a little about your family.</h2><p class="lede">Complete the three short steps below. Your details are used to respond to this enquiry.</p></div>
+    <div class="wizard">
+      <div class="wizard-progress" aria-label="Application progress"><div class="wizard-step-indicator active" data-step-indicator><span>1</span> Child</div><div class="wizard-step-indicator" data-step-indicator><span>2</span> Class &amp; parent / guardian</div><div class="wizard-step-indicator" data-step-indicator><span>3</span> Review</div></div>
+      <form class="form-card" data-application-form novalidate>
+         <div class="honeypot" aria-hidden="true"><label for="botcheck">Leave this field empty</label><input id="botcheck" name="botcheck" tabindex="-1" autocomplete="off"></div>
+        <section class="form-step" data-form-step="0" aria-labelledby="child-step-title">
+          <h2 id="child-step-title" tabindex="-1">About the child</h2><p class="form-help">Please enter the child’s details and the class you are considering.</p>
+          <div class="form-grid">
+            <div class="field"><input id="child-first" name="childFirstName" autocomplete="given-name" required maxlength="80" placeholder=" " aria-describedby="error-child-first"><label for="child-first">Child’s first name *</label><span class="field-error" id="error-child-first" data-error-for="childFirstName"></span></div>
+            <div class="field"><input id="child-last" name="childLastName" autocomplete="family-name" required maxlength="80" placeholder=" " aria-describedby="error-child-last"><label for="child-last">Child’s last name *</label><span class="field-error" id="error-child-last" data-error-for="childLastName"></span></div>
+            <div class="field"><input id="child-middle" name="childMiddleName" maxlength="80" placeholder=" " aria-describedby="error-child-middle"><label for="child-middle">Middle or other name (if applicable)</label><span class="field-error" id="error-child-middle" data-error-for="childMiddleName"></span></div>
+            <div class="field"><input id="child-dob" name="childDob" type="date" required aria-describedby="error-child-dob"><label for="child-dob">Date of birth *</label><span class="field-error" id="error-child-dob" data-error-for="childDob"></span></div>
+          </div>
+          <div class="wizard-actions"><span></span><button class="button" type="button" data-next>Continue to parent details <span aria-hidden="true">→</span></button></div>
+        </section>
+        <section class="form-step" data-form-step="1" aria-labelledby="guardian-step-title" hidden>
+          <h2 id="guardian-step-title" tabindex="-1">Class and parent or guardian</h2><p class="form-help">Choose a class and add contact details so the school can respond.</p>
+          <div class="form-grid">
+            <div class="field full"><select id="class-applying" name="classApplyingFor" required aria-describedby="error-class"><option value="" selected disabled>Select a class</option></select><label for="class-applying">Class of enrolment *</label><span class="field-error" id="error-class" data-error-for="classApplyingFor"></span></div>
+            <div class="field full"><input id="parent-name" name="parentFullName" autocomplete="name" required maxlength="100" placeholder=" " aria-describedby="error-parent-name"><label for="parent-name">Parent / guardian full name *</label><span class="field-error" id="error-parent-name" data-error-for="parentFullName"></span></div>
+            <div class="field"><input id="parent-phone" name="parentPhone" type="tel" autocomplete="tel" inputmode="tel" required maxlength="20" placeholder=" " aria-describedby="error-parent-phone"><label for="parent-phone">Phone number *</label><span class="field-error" id="error-parent-phone" data-error-for="parentPhone"></span></div>
+            <div class="field"><input id="parent-email" name="parentEmail" type="email" autocomplete="email" maxlength="120" placeholder=" " aria-describedby="error-parent-email"><label for="parent-email">Email (optional)</label><span class="field-error" id="error-parent-email" data-error-for="parentEmail"></span></div>
+          </div>
+          <div class="wizard-actions"><button class="button secondary" type="button" data-back>← Back</button><button class="button" type="button" data-next>Review enquiry <span aria-hidden="true">→</span></button></div>
+        </section>
+        <section class="form-step" data-form-step="2" aria-labelledby="review-step-title" hidden>
+          <h2 id="review-step-title" tabindex="-1">Check your enquiry</h2><p class="form-help">Please review the details before sending.</p>
+          <div class="review-box" data-review></div>
+          <p class="form-help consent-help">Your details are sent to the school to respond to this enquiry. They are not saved by this website.</p>
+           <label class="consent"><input type="checkbox" name="consent" required><span>I confirm the information is correct. I agree that Green Leaf School may use these details to respond to my admission enquiry. *</span></label>
+          <div class="wizard-actions"><button class="button secondary" type="button" data-back>← Back</button><button class="button" type="submit" data-submit>Send enquiry</button></div>
+        </section>
+        <div class="form-status" data-form-status role="status" aria-live="polite" hidden></div>
+      </form>
+      <section class="success-screen" data-success-screen aria-labelledby="success-title" hidden>
+        <span class="success-check" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m10 25 9 9L38 14"/></svg></span>
+        <p class="eyebrow">Enquiry sent</p><h2 id="success-title" tabindex="-1">Thank you for getting in touch.</h2>
+        <p>Your email enquiry has been received. You can also send these details to the school on WhatsApp.</p>
+        <div class="success-summary" data-success-summary></div>
+        <a class="button gold success-whatsapp" data-success-whatsapp target="_blank" rel="noopener noreferrer">Send details on WhatsApp ↗</a>
+      </section>
+    </div>
+  </div></section>
+  <section class="section levels-band"><div class="container"><div class="section-heading center"><p class="eyebrow">Questions families ask</p><h2>Good to know.</h2></div>
+    <div class="faq-list" data-accordion>
+      <div class="faq-item"><button class="faq-question" id="faq-q-1" type="button" aria-expanded="false" aria-controls="faq-a-1" data-accordion-trigger><span>Which classes are offered?</span><span data-marker aria-hidden="true">+</span></button><div class="faq-answer" id="faq-a-1" role="region" aria-labelledby="faq-q-1" hidden>Green Leaf School offers Creche, Nursery, Primary and JHS.</div></div>
+      <div class="faq-item"><button class="faq-question" id="faq-q-2" type="button" aria-expanded="false" aria-controls="faq-a-2" data-accordion-trigger><span>Are there school fees?</span><span data-marker aria-hidden="true">+</span></button><div class="faq-answer" id="faq-a-2" role="region" aria-labelledby="faq-q-2" hidden>Tuition is free; there are no school fees. Scholarships are also available.</div></div>
+       <div class="faq-item"><button class="faq-question" id="faq-q-3" type="button" aria-expanded="false" aria-controls="faq-a-3" data-accordion-trigger><span>Are scholarships available?</span><span data-marker aria-hidden="true">+</span></button><div class="faq-answer" id="faq-a-3" role="region" aria-labelledby="faq-q-3" hidden>Scholarship opportunities are available. Contact the school to ask about details.</div></div>
+      <div class="faq-item"><button class="faq-question" id="faq-q-4" type="button" aria-expanded="false" aria-controls="faq-a-4" data-accordion-trigger><span>How will the school contact me?</span><span data-marker aria-hidden="true">+</span></button><div class="faq-answer" id="faq-a-4" role="region" aria-labelledby="faq-q-4" hidden>The school can reply using the phone number or optional email address you provide. You can also call 0540863834 or 0557474117, message us on WhatsApp, or email greenleafschool2006@gmail.com.</div></div>
+    </div>
+  </div></section>
+</main><footer id="site-footer"></footer></body></html>
