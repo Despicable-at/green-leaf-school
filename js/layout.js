@@ -63,7 +63,7 @@ function makeFooter() {
       <div class="footer-grid">
         <div><a class="brand footer-brand" href="index.html" aria-label="Green Leaf School home">${logo}<span class="brand-name">Green Leaf<span class="brand-tag">School · Atimatim</span></span></a><p class="footer-copy">Child-centered learning in a conducive environment, with no school fees.</p><span class="footer-admission">Admission in progress</span></div>
         <div><h2 class="footer-title">Explore</h2><nav class="footer-links" aria-label="Footer navigation">${NAV_ITEMS.map((item) => `<a href="${item.href}">${item.label}</a>`).join('')}</nav></div>
-        <div class="footer-contact"><h2 class="footer-title">Say hello</h2><span>${SCHOOL.place}</span><a href="${SCHOOL.telOne}">${SCHOOL.phoneOne}</a><a href="${SCHOOL.telTwo}">${SCHOOL.phoneTwo}</a><a href="${SCHOOL.whatsapp}?text=${encodeURIComponent('Hello Green Leaf School, I would like to enquire.')}" target="_blank" rel="noopener noreferrer">WhatsApp the school</a><a href="mailto:${SCHOOL.email}">${SCHOOL.email}</a></div>
+        <div class="footer-contact"><h2 class="footer-title">Say hello</h2><span>${SCHOOL.place}</span><a href="${SCHOOL.telOne}">Contact Us</a><a href="${SCHOOL.whatsapp}?text=${encodeURIComponent('Hello Green Leaf School, I would like to enquire.')}" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="mailto:${SCHOOL.email}">Email</a></div>
         <div><h2 class="footer-title">Find our location</h2></div>
       </div>
       <div class="footer-bottom"><span>© <span data-year></span> Green Leaf School · Tuition-free education</span><span>Atimatim · Edwenase · Ghana</span></div>
